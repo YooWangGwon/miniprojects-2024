@@ -1,0 +1,11 @@
+project2: main.o func.o
+  gcc -o project2 main.o func.o
+
+main.o: main.c func.h
+  gcc -c -o main.o main.c
+
+func.o: func.c func.h
+  gcc -c -o func.o func.c
+
+clean:
+  rm -fr *.o project2

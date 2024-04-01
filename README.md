@@ -1,10 +1,11 @@
 # miniprojects-2024
 부경대학교 2024 IoT 개발자 과정 미니 프로젝트 리포지토리
+
 개발 기간 : 2024년03월21일 ~ 2024년03월26일
 
 ## 1일차(24.03.21)
-
 - mini project 1
+
 	- Language : C
 	- Development environment : Rasberry Pi Putty
 	- 아이디와 비밀번호를 입력하여 strcmp로 비교 
@@ -13,6 +14,7 @@
 	
 
 - mini project 2
+
 	- Language : C
 	- Development environment : Rasberry Pi Putty, Visual Studio
 	- 도서 등록, 출력 기능 추가
@@ -20,8 +22,8 @@
 	- 도서를 번호로 선택하여 삭제하는 기능 추가
 
 ## 2일차(24.03.22)
-
 - mini project 2
+
 	- Language : C
 	- Development environment : Rasberry Pi Putty
 	- 도서 검색 후 대여 기능 추가
@@ -30,8 +32,8 @@
 	- Putty에서 makefile을 통해 실행파일 생성하기
 	
 ## 3일차(24.03.25)
-
 - mini project 2
+
 	- Language : C
 	- Development environment : Rasberry Pi Putty
 	- 도서 등록 함수에서 오류 발생시 함수 종료
@@ -41,8 +43,8 @@
 	- 도서 선택 삭제 기능 보완(선택 삭제 중 중간 삭제 및 마지막 도서 삭제)
 	
 ## 4일차(24.03.26)
-
 - mini project 2
+
 	- Language : C
 	- Development environment : Rasberry Pi Putty
 	- 메인 파일 내용 간략화 및 메뉴 출력 함수 추가

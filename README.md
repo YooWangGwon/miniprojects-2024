@@ -3,7 +3,9 @@
 
 개발 기간 : 2024년03월21일 ~ 2024년03월26일
 
-## 1일차(24.03.21)
+## C/C++ Miniproject
+
+### 1일차(24.03.21)
 - mini project 1
 
 	- Language : C
@@ -21,7 +23,7 @@
 	- 도서를 제목, 저자, 출판사를 기준으로 검색하여 조회하는 기능 추가
 	- 도서를 번호로 선택하여 삭제하는 기능 추가
 
-## 2일차(24.03.22)
+### 2일차(24.03.22)
 - mini project 2
 
 	- Language : C
@@ -31,7 +33,7 @@
 	- 도서 전제 삭제 기능 추가
 	- Putty에서 makefile을 통해 실행파일 생성하기
 	
-## 3일차(24.03.25)
+### 3일차(24.03.25)
 - mini project 2
 
 	- Language : C
@@ -42,9 +44,16 @@
 	- 로그인 시 별도로 생성된 파일에 저장된 아이디와 비밀번호를 불러와서 로그인에서 사용하는 기능 추가
 	- 도서 선택 삭제 기능 보완(선택 삭제 중 중간 삭제 및 마지막 도서 삭제)
 	
-## 4일차(24.03.26)
+### 4일차(24.03.26)
 - mini project 2
 
 	- Language : C
 	- Development environment : Rasberry Pi Putty
 	- 메인 파일 내용 간략화 및 메뉴 출력 함수 추가
+
+## Miniproject2
+
+### 1일차
+- 조별 자리배치
+
+    ![기본설명](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp001.png)

@@ -51,9 +51,25 @@
 	- Development environment : Rasberry Pi Putty
 	- 메인 파일 내용 간략화 및 메뉴 출력 함수 추가
 
-## Miniproject2
+## Iot Miniproject2
 
 ### 1일차
 - 조별 자리배치
+- IoT프로젝트 개요
+    
+	![기본설명](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp001.png)
 
-    ![기본설명](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp001.png)
+	1. IoT기기 구성 - 아두이노, 라즈베리파이 등 IoT장비들과 연결
+	2. 서버 구성 - IoT기기와 통신, DB 구성, 데이터 수집 앱 개발
+	3. 모니터링 구성 - 	실시간 모니터링/제어 앱, 전체 연결
+
+- 조별 미니프로젝트
+    - 5월 28일 (40시간)
+    - 구체적으로 어떤 디바이스 구성, 데이터 수집, 모니터링 계획
+    - 8월말 정도에 끝나는 프로젝트 일정 계획
+    - **요구사항 리스트, 기능명세, UI/UX 디자인, DB설계 문서하나**로 통합
+    - 5월 28일 오후 각 조별로 파워포인트/프레젠테이션 10분 발표
+    - 요구사항 리스트 문서전달
+    - 기능명세 문서
+    - DB설계 ERD 또는 SSMS 물리적DB설계 
+    - UI/UX디자인 16일(목) 내용전달

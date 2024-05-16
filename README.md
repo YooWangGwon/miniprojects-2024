@@ -53,7 +53,7 @@
 
 ## Iot Miniproject2
 
-### 1일차
+### 1일차(24.05.17)
 - 조별 자리배치
 - IoT프로젝트 개요
     
@@ -73,3 +73,39 @@
     - 기능명세 문서
     - DB설계 ERD 또는 SSMS 물리적DB설계 
     - UI/UX디자인 16일(목) 내용전달
+
+## 2일차(24.05.16)
+- 미니프로젝트
+	- 프로젝트 문서
+	- Notion 팀프로젝트 툴 사용
+	- UI/UX 디자인 툴
+		- 카카오 oven : https://ovenapp.io/
+		- 피그마 : https://www.figma.com/
+			- 피그마 단축키
+				- V - 선택도구
+				- A - 직선도구
+				- T - 텍스트도구
+				- Space + Drag - 마우스 커서에 따라 원하는 영역으로 이동
+				- Ctrl + R - 레이어 이름 변경
+				- Ctrl + G - 객체 그룹화
+				- Ctrl + Shift + G - 객체 그룹 해제
+				- Ctrl + D - 선택한 객체 복사
+				- Ctrl + [ - 선택한 객체 뒤로 보내기
+				- Ctrl + ] - 선택한 객체 앞으로 보내기
+		- 목업 : https://app.moqups.com
+	- 프레젠테이션
+		- https://www.miricanvas.com/ko 미리캔버스 활용 추천
+	- 라즈베리파이 리셋팅, 네트워크 설정, VNC(OS UI작업)
+
+- 스마트홈 연동 클래스 미니프로젝트
+	1. 요구사항 정의, 기능명세, 일정정리
+	2. UI/UX 디자인
+		- RPi는 디자인 없음(콘솔)
+		- 데이터 수신앱
+		- 모니터링 앱
+	3. DB 설계
+	4. RPi(Rasberry Pi) 셋팅(Network)
+	5. RPi GPIO, IoT디바이스 연결(카메라, HDT센서(온습도 센서), RGB LED, ...)
+	6. RPi 데이터 전송 파이썬 프로그래밍
+	7. PC(Server) 데이터 수신 C# 프로그래밍
+	8. 모니터링 앱 개발(수신 및 송싱)

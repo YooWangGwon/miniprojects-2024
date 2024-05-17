@@ -109,3 +109,24 @@
 	6. RPi 데이터 전송 파이썬 프로그래밍
 	7. PC(Server) 데이터 수신 C# 프로그래밍
 	8. 모니터링 앱 개발(수신 및 송싱)
+
+## 3일차(24.05.17)
+- 미니프로젝트
+	- 실무 프로젝트 문서
+	- Jira 사용법 : https://www.atlassian.com/
+	- 조별로 진행
+
+- 라즈베리 파이 세팅
+	1. RPi 기본 구성 - RPi + MicroSD + Power
+	2. RPi 기본 세팅
+		[x] 최신 업그레이드 
+		[x] 한글화
+		- 키보드 변경
+		[x] 화면사이즈 변경(RealVNC)
+		- Pi Apps 앱설치 도우미 앱
+		- Github Desktop, VS Code
+		- 네트워크 확인
+		- RealVNC Server 자동실행 설정
+
+- 스마트홍 연동 클래스 미니프로젝트
+	- RPi 셋팅 진행

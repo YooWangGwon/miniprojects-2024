@@ -155,6 +155,9 @@
 		- sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED 실행하기
 		- Adafruit_Python_DHT 디렉토리에 들어가서 sudo pip install adafruit-circuitpython-dht로 설치하기
 
+	![LED&DHT](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp002.png)
+
+
 - 라즈베리파이 마우스 속도 높이기
 	- sudo nano /boot/firmware/cmdline.txt로 cmdline.txt에 들어가기
 	- 제일 끝에 usbhid.mousepoll=0 입력하고 저장

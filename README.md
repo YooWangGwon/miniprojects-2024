@@ -137,10 +137,37 @@
 	[X] GPIO HAT
 	[X] 브레드보드와 연결
 	[ ] DHT11(온습도) 센서 
-	[ ] RGB LED 모듈
+	[X] RGB LED 모듈
 		- V: 5볼트 R:Red G:Green B:Blue
 		- V는 5V에 연결
 		- R : GPIO4
 		- G : GPIO5
 		- B : GPIO6
 	[-] 서보모터
+
+### 5일차(24.05.21)
+- 라즈베리 파이 IoT 장비 설치
+	[X] DHT11(온습도) 센서 
+		- GND : GND 8개 중 아무곳에 연결
+		- VCC : 5V 연결
+		- S : GPIO18 연결
+		- Adafruit Github에서 Adafruit_python_DHT 클론하기
+		- sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED 실행하기
+		- Adafruit_Python_DHT 디렉토리에 들어가서 sudo pip install adafruit-circuitpython-dht로 설치하기
+
+- 라즈베리파이 마우스 속도 높이기
+	- sudo nano /boot/firmware/cmdline.txt로 cmdline.txt에 들어가기
+	- 제일 끝에 usbhid.mousepoll=0 입력하고 저장
+	- sudo reboot로 재시작
+
+- 라즈베리파이 무선랜 연결
+	- sudo nano /etc/wpa_supplicant/wpa_supplicant.cont로 wpa_supplicant에 들어가기
+	- 제일 상단에 country=KR 입력 -> 저장하고 나가기
+	- sudo nano /etc/rc.local 로 rc.local에 들어가기
+	- exit0 위에 아래 내용 입력하고 저장
+	```
+	sudo iw reg set KR
+	sudo iw config wlan0 poweroff
+	```
+	
+	- sudo reboot으로 재시작

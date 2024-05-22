@@ -168,9 +168,17 @@
 	- 제일 상단에 country=KR 입력 -> 저장하고 나가기
 	- sudo nano /etc/rc.local 로 rc.local에 들어가기
 	- exit0 위에 아래 내용 입력하고 저장
-	```
+	
+	```shell
 	sudo iw reg set KR
 	sudo iw config wlan0 poweroff
 	```
 	
 	- sudo reboot으로 재시작
+
+### 6일차(24.04.22)
+- 컴퓨터마다 개별 공유기 설치하기
+
+- RealVNC
+	1. 라즈베리 파이에서 RealVNC Server 실행 또는 ifconfig를 통해 라즈베리파이 IP주소 확인
+	2. 컴퓨터에서 RealVNC Viewer 을 실행하여 라즈베리파이 IP주소 입력 후 컴퓨터에서 라즈베리파이 화면 조작 가능

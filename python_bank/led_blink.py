@@ -16,10 +16,10 @@ GPIO.setup(blue_pin, GPIO.OUT) # 6pin output
 
 try:
     while (True):
-        GPIO.output(red_pin, True) # 0.5sec
-        GPIO.output(green_pin, False) # 0.5sec
-        GPIO.output(blue_pin, False) # 0.5sec
-        time.sleep(1) # 0.5sec // R
+        GPIO.output(red_pin, False)
+        GPIO.output(green_pin, False)
+        GPIO.output(blue_pin, False)
+        time.sleep(1) # 1sec
 
         # GPIO.output(red_pin, False)
         # GPIO.output(green_pin, True)

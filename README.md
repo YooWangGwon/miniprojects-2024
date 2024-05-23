@@ -171,14 +171,46 @@
 	
 	```shell
 	sudo iw reg set KR
-	sudo iw config wlan0 poweroff
+	sudo iwconfig wlan0 poweroff
 	```
 	
 	- sudo reboot으로 재시작
+	- 라즈베리 파이를 사용하고 있지 않더라도 WIFI 연결이 끊기지 않음
 
-### 6일차(24.04.22)
+### 6일차(24.05.22)
 - 컴퓨터마다 개별 공유기 설치하기
-
 - RealVNC
 	1. 라즈베리 파이에서 RealVNC Server 실행 또는 ifconfig를 통해 라즈베리파이 IP주소 확인
 	2. 컴퓨터에서 RealVNC Viewer 을 실행하여 라즈베리파이 IP주소 입력 후 컴퓨터에서 라즈베리파이 화면 조작 가능
+
+### 7일차(24.05.23)
+- RealVNC
+	- RealVNC Viewer 의 Picture Quality를 Medium으로 변경
+
+- 스마트홈 연동 클래스 미니프로젝트
+	- RGB LED, DHT11(온습도 센서)
+	- RPi <--> Windows 통신(MQTT)
+	- WPF 모니터링 앱
+
+- IoT 기기간 통신방법
+	- Modbus - 시리얼 통신으로 데이터 전송(완전 구식)
+	- OPC UA - Modbus통신 불편한 점 개선(아주 복잡)
+	- **MQTT** - 가장 편리! AWS IoT, Azure IoT 클라우드 산업계표준으로 사용
+
+	![MQTT](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp003.png)
+
+
+- 데이터 전달 프로세스(MQTT)
+	- Publisher(출판자) : 데이터를 만들어 Broker에게 전달
+	- Broker : Publisher에게 받은 데이터 중 Subscriber가 요구하는 데이터를 전달
+	- Subscriber(구독자) : 원하는 데이터를 Broker에게 요청
+	- Publisher와 Subscriber 관계는 고정적이지 않음 
+		-> 윈도우가 Publisher나 Subscriber 역할을 할 수 있고, 라즈베리파이가 Publisher나 Subscriber 역할을 할 수 있음
+
+- MQTT 통신
+	- [X] Mosquitto Broker 설치
+		- mosquitto.config : listener 1883 0.0.0.0, allow_anonymous true 
+		- 방화벽 인바운드 열기
+	- [X] Rpi : paho-mqtt 패키지 설치, 송신역할(publisher)
+		- sudo pip install paho-mqtt
+	- [ ] Win : MQTT.NET Nuget 패키지 설치, 수신역할(subscriber)

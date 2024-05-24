@@ -4,6 +4,8 @@ import time
 import RPi.GPIO as GPIO
 import board
 
+
+
 log_num = 0
 sensor_pin = 18
 GPIO.setmode(GPIO.BCM)

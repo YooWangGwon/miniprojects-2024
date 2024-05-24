@@ -116,13 +116,15 @@
 	- Jira 사용법 : https://www.atlassian.com/
 	- 조별로 진행
 
-- 라즈베리 파이 세팅
+- 라즈베리 파이 세팅ss
 	1. RPi 기본 구성 - RPi + MicroSD + Power
 	2. RPi 기본 세팅
-		[x] 최신 업그레이드 
-		[x] 한글화
+		- [x] 최신 업그레이드 
+			- sudo apt-get update
+			- sudo apt-get upgrades
+		- [x] 한글화
 		- 키보드 변경
-		[x] 화면사이즈 변경(RealVNC)
+		- [x] 화면사이즈 변경(RealVNC)
 		- Pi Apps 앱설치 도우미 앱
 		- Github Desktop, VS Code
 		- 네트워크 확인
@@ -214,3 +216,6 @@
 	- [X] Rpi : paho-mqtt 패키지 설치, 송신역할(publisher)
 		- sudo pip install paho-mqtt
 	- [ ] Win : MQTT.NET Nuget 패키지 설치, 수신역할(subscriber)
+
+### 8일차(24.05.24)
+-

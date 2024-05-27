@@ -63,7 +63,7 @@ while True:
         # 딕셔너리 데이터를 json 데이터로 변환
         pub_data = json.dumps(origin_data, ensure_ascii=False)
 
-        mqttc.publish('pknu/data', pub_data) # mqtt에 json데이터 보내기
+        mqttc.publish('pknu/data/', pub_data) # mqtt에 json데이터 보내기
         loop_num += 1
     except RuntimeError as ex:
         print(ex.args[0])

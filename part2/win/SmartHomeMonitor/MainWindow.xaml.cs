@@ -1,25 +1,9 @@
 ﻿using MahApps.Metro.Controls;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Diagnostics;
 using SmartHomeMonitoringApp.Views;
-using MahApps.Metro.Controls.Dialogs;
-using SmartHomeMonitoringApp.Logics;
-using System.Security.AccessControl;
 using System.ComponentModel;
-using ControlzEx.Theming;
 
 namespace SmartHomeMonitoringApp
 {
@@ -59,10 +43,14 @@ namespace SmartHomeMonitoringApp
 
         private void MnuDataBaseMon_Click(object sender, RoutedEventArgs e)
         {
+            ActiveItem.Content = new DataBaseControl();
+            StsSelScreen.Content = "데이터베이스 모니터링";
         }
 
         private void MnuRealTimeMon_Click(object sender, RoutedEventArgs e)
         {
+            ActiveItem.Content = new RealTimeControl();
+            StsSelScreen.Content = "실시간 모니터링";
         }
 
         private void MnuVisualizationMon_Click(object sender, RoutedEventArgs e)
@@ -73,5 +61,10 @@ namespace SmartHomeMonitoringApp
         {
         }
 
+        private void MnuVisialization_Click(object sender, RoutedEventArgs e)
+        {
+            ActiveItem.Content = new VisualizationControl();
+            StsSelScreen.Content = "시각화 모니터링";
+        }
     }
 }

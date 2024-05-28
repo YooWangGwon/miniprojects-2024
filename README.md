@@ -223,16 +223,36 @@
 - MQTT 통신
 	- 라즈베리파이에서 얻은 온습도 정보를 MQTT를 통해 컴퓨터에 받아오기
 
-### 9일차(24.05.25)
+### 9일차(24.05.27)
 - 스마트홈 연동 클래스 미니프로젝트
 	- [X] WPF MQTT 데이터 DB로 저장
 		- Newtonsoft.Json 패키지 활용
 	- [X] MQTT 데이터 실시간 모니터링
-		- LiveChart2
+		- LiveChart2, 실시간 온도 차트
 	- [ ] MQTT로 RPi 제어 (LED ON/OFF)
 	- [ ] WPF MQTT 데이터 히스토리 확인
 
-### 10일차
-- 스마트홈 미니 프로젝트 마무리
+	- DB 모니터링 화면
+
+	![DB](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp004.png)
+
+	- 실시간 모니터링 화면
+
+	![RealTime](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp005.png)
+
+### 10일차(24.05.28)
+- 스마트홈 연동 클래스 미니프로젝트 마무리
+	- [X] MQTT 데이터 실시간 모니터링
+		- LiveChart2
+	- [X] MQTT로 RPi 제어 (LED ON/OFF)
+		- 실시간 모니터링 화면에서 버튼을 누르면 적색, 녹색 LED 및 LED 꺼짐
+	- [X] WPF MQTT 데이터 히스토리 확인
+		- DB 연동하여 저장된 로그들 출력
+		- OxyPlot.WPF 패키지 사용
+		- LiveChart2는 차후에 다시
+
+	- 시각화 모니터링 화면
+	![Visualization](https://raw.githubusercontent.com/YooWangGwon/miniprojects-2024/main/images/mp006.png)
+
 
 - 조별 미니 프로젝트 발표

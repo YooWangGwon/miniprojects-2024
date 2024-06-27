@@ -14,7 +14,7 @@ import datetime as dt
 red_pin = 4
 green_pin = 6
 blue_pin = 5
-dht_pin = 18
+dht_pin = 16
 dev_id = 'PKNU60'
 
 loop_num = 0
@@ -57,7 +57,7 @@ GPIO.setup(green_pin, GPIO.OUT) # LED를 키라는 신호를 RPi에서 보내는
 GPIO.setup(blue_pin, GPIO.OUT)
 GPIO.setup(dht_pin, GPIO.IN) # dht센서로 부터 온습도 값을 PRi에서 받는 것
 
-dhtDevice = adafruit_dht.DHT11(board.D18) # 중요!!!
+dhtDevice = adafruit_dht.DHT11(board.D16) # 중요!!!
 
 ## 초기화 끝
 

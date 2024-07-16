@@ -140,7 +140,7 @@ namespace SmartHomeMonitoringApp.Views
                     LabelsSize = 12,
                     LabelsOuterOffset = 15,
                     OuterOffset = 65, // 차트 선이 퍼져있는 정도
-                    TicksLength = 15 // 차트 실선 길이
+                    TicksLength = 10 // 차트 실선 길이
                 },
                 Needle
                 };
